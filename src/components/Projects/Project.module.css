@@ -1,0 +1,106 @@
+@import "../../vars.css";
+
+.container{
+    position: relative;
+    
+    border-radius: 15px;
+    padding: 53px;
+    margin-top: 15px;
+    z-index: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+  
+}
+.title{
+    color: var(--color-text);
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.paragraph{
+    
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+     
+    
+}
+.minipara{
+    width: 250px;
+    color: var(--color-text);
+    background-color: black;
+    padding: 20px;
+    border-radius: 15px;
+}
+.minipara h3{
+    
+   
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color: var(--color-text);
+    
+
+}
+.minipara p{
+    
+   
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color: var(--color-text);
+    
+
+}
+.minipara p button{
+    width: 100px;
+    color: var(--color-text);
+}
+
+.img{
+    width: 200px;
+    
+    /* padding: 50px; */
+}
+.btn{
+    border-radius: 400px;
+    border: none;
+    padding: 5px;
+    background-color: grey;
+    
+}
+
+.btn a{
+    text-decoration: none;
+    font-weight: 900;
+    color: black;
+
+}
+.btn:hover{
+    
+    background-color: white
+}
+
+
+
+@media screen and (max-width: 830px) {
+    .container {
+     
+      padding-left: 0;
+      padding-right: 0;
+      
+    }
+    .paragraph{
+    
+        display: flex;
+        flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         gap: 30px;
+          
+         
+     }
+}
